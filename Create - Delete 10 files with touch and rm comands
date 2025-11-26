@@ -1,0 +1,11 @@
+#!/bin/bash
+for i in {1..10}
+do
+touch $i
+done
+
+#!/bin/bash
+for i in {1..10}
+do
+rm $i
+done
